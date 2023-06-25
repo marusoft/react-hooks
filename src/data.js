@@ -3,7 +3,7 @@ const employees = [
     id: 1,
     name: "Muhammed",
     role: "fashion Designer",
-    gender: "Male",
+    gender: "Male",    
   },
   {
     id: 2,

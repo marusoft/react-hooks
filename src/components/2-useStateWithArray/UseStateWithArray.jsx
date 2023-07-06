@@ -6,6 +6,7 @@ const UseStateWithArray = () => {
   const [staff, setStaff] = useState(employees);
   // console.log(staff)
 
+  // function to delete individual item
   const removeItem = (id) => {
     // logic
     // console.log(id)
@@ -13,7 +14,7 @@ const UseStateWithArray = () => {
     // console.log(newEmployee);
     setStaff(newEmployee);
   };
-
+  // function to delete all item
   const clearAllItems = () => {
     setStaff([]);
   };
@@ -36,7 +37,9 @@ const UseStateWithArray = () => {
           );
         })}
       </div>
-      <button onClick={clearAllItems} className="clear-btn">Clear Items</button>
+      <button onClick={clearAllItems} className="clear-btn">
+        Clear Items
+      </button>
     </div>
   );
 };

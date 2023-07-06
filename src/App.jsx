@@ -3,6 +3,8 @@ import "./App.css";
 import UseState from "./components/1-useStateBasis/UseState";
 import ChangeColor from "./components/1-useStateBasis/ChangeColor";
 import UseStateWithArray from "./components/2-useStateWithArray/UseStateWithArray";
+import UseStateWithObject from "./components/3-useStateWithObject/UseStateWithObject";
+import UseEffectExample from "./components/4-useEffect/UseEffectExample";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <UseState />
       <ChangeColor />
       <UseStateWithArray />
+      <UseStateWithObject />
+      <UseEffectExample />
     </div>
   );
 }
